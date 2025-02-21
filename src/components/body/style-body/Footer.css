@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+footer {
+    background-color: #0c1220;
+    padding-bottom: 2rem;
+    padding-top: 7.5rem;
+    color: #adb5bd;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-footer {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #343a40;
+  }
+  
+  .footer-icon-paragraph img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-icon-paragraph p {
+    line-height: 1.6;
+    color: #adb5bd;
+  }
+  
+  .menus-row {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .menus-row div {
+    min-width: 150px;
+  }
+  
+  .header-col {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .menu-links-platform-wrapper,
+  .menu-links-features-wrapper,
+  .menu-links-company-wrapper {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+  }
+  
+  .menu-links-platform-wrapper li,
+  .menu-links-features-wrapper li,
+  .menu-links-company-wrapper li {
+    margin-bottom: 8px;
+  }
+  
+  .menu-links-platform-wrapper a,
+  .menu-links-features-wrapper a,
+  .menu-links-company-wrapper a {
+    text-decoration: none;
+    color: #adb5bd;
+    transition: color 0.3s;
+  }
+  
+  .menu-links-platform-wrapper a:hover,
+  .menu-links-features-wrapper a:hover,
+  .menu-links-company-wrapper a:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    color: #6c757d;
+  }
+  
+  .footer-bottom .copy-right {
+    color: #A38CFF;
+    font-weight: 500;
+    font-size: 15px; 
+  }
+  
+  .footer-bottom .footer-icon img {
+    max-width: 100%;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .footer-bottom .footer-icon img:hover {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 770px) {
+    .footer-top {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #343a40;
+      }
+
+    .menus-row {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+  }

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.star-testimony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-content {
+    color: #878787;
+}
+
+.star-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    justify-content: stretch;
+}
+
+.star-wrapper img {
+    width: 10rem;
+    height: 2.5rem;
+}

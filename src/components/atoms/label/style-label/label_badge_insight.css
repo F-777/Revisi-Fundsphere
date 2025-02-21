@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.label-badge-insight {
+    display: inline-block;
+    background-color: #e1e4ff;
+    color: #635BFF;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 7.5rem;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}

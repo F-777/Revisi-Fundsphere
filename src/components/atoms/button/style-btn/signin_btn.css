@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.signinbtn {
+    background: transparent;
+    border: 1px solid transparent;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: #635BFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.signinbtn:hover {
+    background: transparent;
+    color: #333;
+}

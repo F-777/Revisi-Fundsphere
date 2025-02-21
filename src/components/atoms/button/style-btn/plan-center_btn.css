@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.bookcenterbtn {
+    margin-top: -15px;
+    padding-top: 1.35rem;
+    padding-bottom: 1.35rem;
+    font-size: 1rem;
+    border-radius: 7.5rem;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    width: 150%;
+    border: none;
+    transition: 0.3s;
+    background: #6a6ff0;
+    color: #fff;
+    justify-content: center;
+    align-items: bottom;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bookcenterbtn:hover {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}

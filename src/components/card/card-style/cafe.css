@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.features-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.features-wrapper-up {
+    display: flex;
+    gap: 30px;
+}
+
+.features-card-wrapper-1, .features-card-wrapper-2 {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.features-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.features-card-heading h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: left;
+    line-height: 165%;
+    color: #0F2060;
+    font-family: 'DM Sans',sans-serif;
+    cursor: pointer;
+}
+
+.features-card-heading h3:hover {
+    color: #635bff;
+}
+
+.features-card-heading p {
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 25px;
+    color: #A6AEBB;
+}
+
+/* responsive page */
+
+@media (max-width: 770px) {
+    .features-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .features-wrapper-up {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .features-card-wrapper-1, .features-card-wrapper-2 {
+        flex: 1;
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .features-card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .features-card-heading h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        font-weight: 700;
+        text-align: left;
+        line-height: 165%;
+        color: #0F2060;
+        font-family: 'DM Sans',sans-serif;
+    }
+    
+    .features-card-heading p {
+        font-family: 'DM Sans',sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 25px;
+        color: #A6AEBB;
+    }
+}

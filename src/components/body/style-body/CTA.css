@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.CTA-footer-wrap {
+    background-color: #f8f9fa;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sect-cta-v2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 33;
+  }
+  
+  .container-cta {
+    width: 100%;
+    max-width: 940px;
+    background-color: #635BFF;
+    background-image: url('../../../assets/footer-bottom/CTA-Background.svg');
+    border-radius: 20px;
+    padding: 40px 70px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+        
+  .CTA-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'DM Sans',sans-serif;
+  }
+  
+  .CTA-Right p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 500;
+  }
+
+
+  @media (max-width: 770px) {
+    .container-cta {
+        width: 70%;
+        max-width: 940px;
+        background-color: #635BFF;
+        background-image: url('../../../assets/footer-bottom/CTA-Background.svg');
+        border-radius: 20px;
+        padding: 40px 70px;
+        color: #fff;
+        text-align: center;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        margin-bottom: -45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+  }

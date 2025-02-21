@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.label-testi {
+    display: inline-block;
+    background-color: #d4c5ff;
+    color: #5c33cf;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: normal;
+    font-size: 14px;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.testimony-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8faff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.testimony-container {
+    max-width: 1100px;
+    text-align: center;
+}
+
+.testi-heading-wrapper {
+    margin-bottom: 40px;
+}
+
+.testi-header {
+    font-size: 40px;
+    line-height: 150%;
+    color: #333;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.testi-descript {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 2rem;
+}

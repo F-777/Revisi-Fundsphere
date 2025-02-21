@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.insight-content-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.insight-content {
+    display: flex;
+    gap: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.insight-small-card-pay,
+.insight-small-card-strategy,
+.insight-small-card-business {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 360px;
+    color: #333;
+    padding-bottom: 15px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+
+.insight-small-card-pay:hover,
+.insight-small-card-strategy:hover,
+.insight-small-card-business:hover {
+    color: #635BFF;
+}
+
+.insight-image-wrapper-pay img,
+.insight-image-wrapper-strategy img,
+.insight-image-wrapper-business img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.insight-overview-pay,
+.insight-overview-strategy,
+.insight-overview-business {
+    background-color: #fff;
+    padding: 15px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.desc-pay,
+.desc-strategy,
+.desc-business {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.pay-day,
+.strategy-day,
+.business-day {
+    font-size: 14px;
+    color: #b3b3b3;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .insight-content-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .insight-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .insight-small-card-pay,
+    .insight-small-card-strategy,
+    .insight-small-card-business {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: transparent;
+        border-radius: 12px;
+        overflow: hidden;
+        width: 500px;
+        color: #333;
+        padding-bottom: 15px;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .insight-image-wrapper-pay img,
+    .insight-image-wrapper-strategy img,
+    .insight-image-wrapper-business img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .insight-overview-pay,
+    .insight-overview-strategy,
+    .insight-overview-business {
+        background-color: #fff;
+        padding: 30px;
+        text-align: left;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .desc-pay,
+    .desc-strategy,
+    .desc-business {
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1.4;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .pay-day,
+    .strategy-day,
+    .business-day {
+        font-size: 14px;
+        color: #b3b3b3;
+        font-family: 'DM Sans', sans-serif;
+    }    
+}

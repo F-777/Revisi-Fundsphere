@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.section-overview {
+  background-image: url(../../../assets/ads-overview/Pattern.svg);
+  background-color: #0F2060;
+  padding-top: 3rem;
+  padding-right: auto;
+  padding-bottom: 3rem;
+  padding-left: auto;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  /* Memberikan jarak antar logo */
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.company-logo img {
+  max-height: 40px;
+  /* Sesuaikan tinggi logo */
+  filter: brightness(0) invert(0.8);
+  /* Untuk membuat logo tampak lebih terang */
+}
+
+.company-logo img:hover {
+  filter: brightness(2) invert(2);
+  /* Untuk membuat logo tampak lebih terang */
+}
+
+
+@media (max-width: 770px) {
+  .section-overview {
+    background-image: url(../../../assets/ads-overview/Pattern.svg);
+    background-color: #0F2060;
+    padding-top: 2rem;
+    padding-right: auto;
+    padding-bottom: 2rem;
+    padding-left: auto;
+  }
+
+  .company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    /* Memberikan jarak antar logo */
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .company-logo img {
+    max-height: 25.5px;
+    /* Sesuaikan tinggi logo */
+    filter: brightness(0) invert(0.8);
+  }
+
+  .company-logo img:hover {
+    filter: brightness(2) invert(2);
+    /* Untuk membuat logo tampak lebih terang */
+  }
+}

@@ -1,0 +1,45 @@
+.cta-btn-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.cta-btn-wrapper button {
+    padding-top: 1.35rem;
+    padding-bottom: 1.35rem;
+    padding-left: 1.55rem;
+    padding-right: 1.55rem;
+    background-color: #635BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 7.5rem;
+    font-size: 16px;
+    position: absolute;
+    right: 0.75rem;
+}
+
+.cta-btn-wrapper input {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 7.5rem;
+    font-size: 16px;
+    flex: 1;
+}
+
+.cta-btn-wrapper input::placeholder {
+    color: #A6AEBB;
+}
+
+.cta-btn-wrapper button:hover {
+    background-color: white;
+    border-radius: 8px solid #635BFF;
+    border-width: 2px;
+    color: #635BFF;
+    cursor: pointer;
+}

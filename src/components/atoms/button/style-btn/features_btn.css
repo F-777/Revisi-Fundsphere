@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.features{
+    margin-top: 5rem;
+    padding: 12px 24px;
+    background:  #635BFF;
+    color: white;
+    border: none;
+    border-radius: 7.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+.features:hover {
+    background-color: transparent;
+    color: #635BFF;
+    border: 1.5px solid #635BFF;
+}

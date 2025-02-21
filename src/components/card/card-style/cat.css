@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.block-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.testi-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.testi-card-maria,
+.testi-card-john {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 350px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 1px, 1px, 1px #969696;
+}
+
+.testi-image-maria img,
+.testi-image-john img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.testi-quote-maria,
+.testi-quote-john {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.testi-john, .testi-maria {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimoni {
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+    line-height: 1.5;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    font-family: 'DM Sans',sans-serif;
+}
+
+.disc-mariah,
+.disc-john {
+    word-spacing: 1.5px;
+    gap: 1.23rem;
+    font-size: 14px;
+    color: #666;
+}
+
+.company {
+    color: #7B889D;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.company:hover {
+    color: #635bff;
+}
+
+
+@media (max-width: 770px) {
+    .block-2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .testi-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .testi-card-maria,
+    .testi-card-john {
+        display: flex;
+        flex-direction: column;
+        background-color: #f1f1f1;
+        border-radius: 12px;
+        overflow: hidden;
+        width: 400px;
+        padding: 20px;
+        text-align: left;
+        box-shadow: 1px, 1px, 1px #969696;
+    }
+    
+    .testi-image-maria img,
+    .testi-image-john img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .testi-quote-maria,
+    .testi-quote-john {
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+    
+    .testi-john, .testi-maria {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .testimoni {
+        font-size: 20px;
+        font-weight: bold;
+        color: #111;
+        line-height: 1.5;
+    }
+    
+    .username {
+        font-size: 18px;
+        font-weight: 500;
+        color: #333;
+        font-family: 'DM Sans',sans-serif;
+    }
+    
+    .disc-mariah,
+    .disc-john {
+        word-spacing: 1.5px;
+        gap: 1.23rem;
+        font-size: 14px;
+        color: #666;
+    }
+    
+    .company {
+        color: #7B889D;
+        font-weight: 600;
+    }
+}

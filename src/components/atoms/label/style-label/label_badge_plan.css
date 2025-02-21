@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.label-badge-pricing {
+    background-color: #e1e4ff;
+    color: #6a6ff0;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'DM Sans',sans-serif;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

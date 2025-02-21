@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.pricing-content {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.package-card-bsc, .package-card-pro, .package-card-eps {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 8rem;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    justify-content: stretch;
+    align-content: space-between;
+}
+
+.package-card-bsc {
+    border: 2px solid #dadbf7;
+    background: #fff;
+    gap: 1.5rem;
+}
+
+.package-card-pro {
+    background: #181c3a;
+    color: #fff;
+}
+
+.package-card-eps {
+    border: 2px solid #dadbf7;
+    background: #fff;
+}
+
+.package-card-bsc:hover, .package-card-pro:hover, .package-card-eps:hover {
+    transform: translateY(-5px);
+}
+
+.package-gap-full-bsc, .package-gap-full-pro, .package-gap-full-eps {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+}
+
+.package-gap-half-bsc, .package-gap-half-pro, .package-gap-half-eps {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: top;
+    gap: 1.5rem;
+}
+
+.sub-head-bsc, .sub-head-pro, .sub-head-eps {
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.sub-desc-bsc, .sub-desc-pro, .sub-desc-eps {
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 1rem;
+    color: #656d89;
+}
+
+.list-bsc-price, .list-pro-price, .list-eps-price {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.list-bsc-price li, .list-pro-price li, .list-eps-price li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1rem;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.package-price-bsc, .package-price-pro, .package-price-eps {
+    display: flex;
+    gap: 12px;
+    justify-content: left;
+    align-items: baseline;
+    margin-top: auto;
+    margin-bottom: -2rem;
+    font: 700;
+    font-family: 'DM Sans',sans-serif;
+    font-size: medium;
+}
+
+.plan-heading-bsc, .plan-heading-eps {
+    font-family: 'DM Sans',sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 23px;
+    color: #635BFF;
+}
+
+.plan-heading-pro {
+    font-family: 'DM Sans',sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 23px;
+    color: #fff;
+}
+
+.book-demo-btn {
+    margin-top: -15px;
+    padding-top: 1.35rem;
+    padding-bottom: 1.35rem;
+    font-size: 1rem;
+    border-radius: 7.5rem;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    width: 150%;
+    border: none;
+    transition: 0.3s;
+}
+
+.book-center {
+    margin-top: -15px;
+    padding-top: 1.35rem;
+    padding-bottom: 1.35rem;
+    font-size: 1rem;
+    border-radius: 7.5rem;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    width: 140%;
+    border: none;
+    transition: 0.3s;
+}
+
+.package-card-bsc .book-demo-btn, .package-card-eps .book-demo-btn {
+    background: #fff;
+    color: #6a6ff0;
+    border: 2px solid #6a6ff0;
+    justify-content: center;
+    align-items: bottom;
+}
+
+.package-card-bsc .book-demo-btn:hover, .package-card-eps .book-demo-btn:hover {
+    background: #6a6ff0;
+    color: #fff;
+}
+
+.package-card-pro .book-center{
+    background: #6a6ff0;
+    color: #fff;
+    border: 2px solid #6a6ff0;
+    justify-content: center;
+    align-items: bottom;
+}
+
+.package-card-pro .book-center:hover {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .pricing-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 20px;
+        margin-top: 40px;
+    }
+    
+    .package-card-bsc, .package-card-pro, .package-card-eps {
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 8rem;
+        border-radius: 10px;
+        text-align: left;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+        justify-content: stretch;
+        align-content: space-between;
+    }
+    
+    .package-card-bsc {
+        border: 2px solid #dadbf7;
+        background: #fff;
+        gap: 1.5rem;
+    }
+    
+    .package-card-pro {
+        background: #181c3a;
+        color: #fff;
+    }
+    
+    .package-card-eps {
+        border: 2px solid #dadbf7;
+        background: #fff;
+    }
+    
+    .package-card-bsc:hover, .package-card-pro:hover, .package-card-eps:hover {
+        transform: translateY(-5px);
+    }
+    
+    .package-gap-full-bsc, .package-gap-full-pro, .package-gap-full-eps {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5px;
+    }
+    
+    .package-gap-half-bsc, .package-gap-half-pro, .package-gap-half-eps {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-content: top;
+        gap: 1.5rem;
+    }
+    
+    .sub-head-bsc, .sub-head-pro, .sub-head-eps {
+        font-family: 'DM Sans',sans-serif;
+        font-weight: 700;
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    .sub-desc-bsc, .sub-desc-pro, .sub-desc-eps {
+        font-family: 'DM Sans',sans-serif;
+        font-weight: 500;
+        line-height: 150%;
+        font-size: 1rem;
+        color: #656d89;
+    }
+    
+    .list-bsc-price, .list-pro-price, .list-eps-price {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        list-style: none;
+        padding: 0;
+        margin-top: 20px;
+    }
+    
+    .list-bsc-price li, .list-pro-price li, .list-eps-price li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 1rem;
+        font-family: 'DM Sans',sans-serif;
+        font-weight: 500;
+        line-height: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    .package-price-bsc, .package-price-pro, .package-price-eps {
+        display: flex;
+        gap: 12px;
+        justify-content: left;
+        align-items: baseline;
+        margin-top: auto;
+        margin-bottom: -2rem;
+        font: 700;
+        font-family: 'DM Sans',sans-serif;
+        font-size: medium;
+    }
+    
+    .plan-heading-bsc, .plan-heading-eps {
+        font-family: 'DM Sans',sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        margin-top: 23px;
+        color: #635BFF;
+    }
+    
+    .plan-heading-pro {
+        font-family: 'DM Sans',sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        margin-top: 23px;
+        color: #fff;
+    }
+    
+    .book-demo-btn {
+        margin-top: -15px;
+        padding-top: 1.35rem;
+        padding-bottom: 1.35rem;
+        font-size: 1rem;
+        border-radius: 7.5rem;
+        cursor: pointer;
+        text-align: center;
+        display: block;
+        width: 150%;
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .book-center {
+        margin-top: -15px;
+        padding-top: 1.35rem;
+        padding-bottom: 1.35rem;
+        font-size: 1rem;
+        border-radius: 7.5rem;
+        cursor: pointer;
+        text-align: center;
+        display: block;
+        width: 140%;
+        border: none;
+        transition: 0.3s;
+    }
+    
+    .package-card-bsc .book-demo-btn, .package-card-eps .book-demo-btn {
+        background: #fff;
+        color: #6a6ff0;
+        border: 2px solid #6a6ff0;
+        justify-content: center;
+        align-items: bottom;
+    }
+    
+    .package-card-bsc .book-demo-btn:hover, .package-card-eps .book-demo-btn:hover {
+        background: #6a6ff0;
+        color: #fff;
+    }
+    
+    .package-card-pro .book-center{
+        background: #6a6ff0;
+        color: #fff;
+    }
+    
+    .package-card-pro .book-center:hover {
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.label-badge-head text {
+    background-color: #e6e4ff;
+    color: #635BFF;
+    font-family: 'DM Sans', serif;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: normal;
+}

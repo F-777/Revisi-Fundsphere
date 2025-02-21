@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.sec-pricing {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f9f9ff;
+}
+
+.container-pricing {
+    text-align: center;
+    max-width: none;
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    gap: 12px;
+}
+
+.pricing-header {
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 600;
+    font-size: 3.25rem;
+    text-align: center;
+    line-height: 4.5rem;
+    margin-block-end: 0;
+    margin-block-start: 20px;
+}
+
+.pricing-desc {
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #A6AEBB;
+    text-align: center;
+    line-height: 2rem;
+}
+

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.getstartedbtn {
+    background: #635BFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 2.5rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "DM Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.getstartedbtn:hover {
+    background: transparent;
+    color: #635BFF;
+    border: 0.75px solid #635BFF;
+}
