@@ -24,16 +24,25 @@
     border: 2px solid #dadbf7;
     background: #fff;
     gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .package-card-pro {
     background: #181c3a;
     color: #fff;
+    gap: 1.5rem;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center; 
 }
 
 .package-card-eps {
     border: 2px solid #dadbf7;
     background: #fff;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .package-card-bsc:hover, .package-card-pro:hover, .package-card-eps:hover {
