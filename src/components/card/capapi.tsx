@@ -1,5 +1,7 @@
 import ListIcon from '../../assets/pricing-plan/list.svg'
 import '../card/card-style/capapi.css'
+import PlanPricingButton from '../atoms/button/plan-pricing_btn.tsx'
+import PlanCenterButton from '../atoms/button/plan-center_btn.tsx'
 
 function CardPlan() {
     return (
@@ -28,7 +30,7 @@ function CardPlan() {
                         <h1 className="plan-heading-bsc">$199</h1>
                         <text>/month</text>
                     </div>
-                    <button className="book-demo-btn">Book Demo</button>
+                    <PlanPricingButton />
                 </div>
             </div>
 
@@ -55,7 +57,7 @@ function CardPlan() {
                         <h1 className="plan-heading-pro">$250</h1>
                         <text>/month</text>
                     </div>
-                    <button className="book-center">Book Demo</button>
+                    <PlanCenterButton />
                 </div>
             </div>
 
@@ -82,7 +84,7 @@ function CardPlan() {
                         <h1 className="plan-heading-eps">$499</h1>
                         <text>/month</text>
                     </div>
-                    <button className="book-demo-btn">Book Demo</button>
+                    <PlanPricingButton />
                 </div>
             </div>
         </div>
